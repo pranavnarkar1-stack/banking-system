@@ -11,10 +11,11 @@ app = Flask(__name__)
 
 def get_connection():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="pranav",
-        database="bank_db"
+        host="zd8sp5.h.filess.io",
+        port=3306,
+        user="bank_db_beyondbut",
+        password="8e5b8764ca60e2fbd22a87017a9c4c4814a1ba",
+        database="bank_db_beyondbut"
     )
 
 # ─── ROUTES ───────────────────────────────────────────────────────────────────
